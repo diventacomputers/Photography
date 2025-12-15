@@ -5,14 +5,17 @@ import Hero from '../components/Hero'
 import PackageList from '../components/PackageList'
 import PortfolioGrid from '../components/PortfolioGrid'
 import SectionHeader from '../components/SectionHeader'
+import ThemeShowcase from '../components/ThemeShowcase'
 import Timeline from '../components/Timeline'
-import { experience, gallery, giftCards, packages } from '../data/content'
+import { experience, gallery, giftCards, packages, themes } from '../data/content'
 
 function Home() {
   return (
     <div className="page">
       <Hero />
       <main className="layout">
+        <ThemeShowcase items={themes} />
+
         <section className="section" id="portfolio">
           <SectionHeader
             eyebrow="Portafolio"

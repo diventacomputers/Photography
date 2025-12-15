@@ -17,6 +17,74 @@ export const gallery = [
   },
 ]
 
+export const themes = [
+  {
+    id: 'about',
+    label: 'About',
+    title: 'Sobre Tacy',
+    description:
+      'Fotógrafa especializada en luz natural con estilo editorial minimalista y dirección cálida en cada sesión.',
+    accent: 'linear-gradient(135deg, #e9def9, #d0f0e6)',
+    highlights: ['Dirección creativa', 'Flujo ágil de entrega', 'Moodboards personalizados'],
+  },
+  {
+    id: 'weddings',
+    label: 'Weddings',
+    title: 'Bodas íntimas',
+    description: 'Cobertura narrativa de ceremonias pequeñas con énfasis en detalles y emociones genuinas.',
+    accent: 'linear-gradient(135deg, #fce3ef, #d6c4f0)',
+    highlights: ['Timeline curado', 'Sesión preboda', 'Entrega en galería privada'],
+  },
+  {
+    id: 'family',
+    label: 'Family',
+    title: 'Familia',
+    description: 'Sesiones documentales en casa o exterior para retratar gestos cotidianos con calidez.',
+    accent: 'linear-gradient(135deg, #d0f0e6, #f7f4ed)',
+    highlights: ['Dirección ligera', 'Guía de vestuario', 'Cobertura flexible'],
+  },
+  {
+    id: 'maternity',
+    label: 'Maternity',
+    title: 'Maternidad',
+    description: 'Retratos etéreos y delicados que celebran la espera con estilismo suave y poses guiadas.',
+    accent: 'linear-gradient(135deg, #f9e9de, #d6c4f0)',
+    highlights: ['Estudio o exterior', 'Atrezzo minimal', 'Retocado sutil'],
+  },
+  {
+    id: 'newborn',
+    label: 'Newborn',
+    title: 'Recién nacido',
+    description: 'Enfoque seguro y respetuoso, priorizando confort y luz suave para captar la esencia del bebé.',
+    accent: 'linear-gradient(135deg, #e4f2ff, #f7f4ed)',
+    highlights: ['Home session', 'Pausas para alimentación', 'Asistente de apoyo'],
+  },
+  {
+    id: 'business',
+    label: 'Business',
+    title: 'Marca personal y negocio',
+    description: 'Contenido estratégico para lanzamientos, webs y redes con coherencia visual y narrativa.',
+    accent: 'linear-gradient(135deg, #e9def9, #cce3f5)',
+    highlights: ['Paquetes recurrentes', 'Storytelling de marca', 'Optimización para social'],
+  },
+  {
+    id: 'gifts',
+    label: 'Gift Cards',
+    title: 'Tarjetas de regalo',
+    description: 'Experiencias fotográficas listas para regalar con mensajes personalizados y vigencia flexible.',
+    accent: 'linear-gradient(135deg, #fff4e5, #d6c4f0)',
+    highlights: ['Vales digitales', 'Personalización de mensaje', 'Opciones para imprimir'],
+  },
+  {
+    id: 'contact',
+    label: 'Contact',
+    title: 'Contacto',
+    description: 'Agenda tu sesión con una videollamada breve para alinear expectativas y logística.',
+    accent: 'linear-gradient(135deg, #d0f0e6, #e9def9)',
+    highlights: ['Respuesta en 24h', 'Guía previa a la sesión', 'Entrega segura'],
+  },
+]
+
 export const packages = [
   {
     name: 'Esencia',
